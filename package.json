@@ -4,7 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "start": "start http://localhost:3000/ & open http://localhost:3000/ & node ./webpack-server.js"
+    "start": "start http://localhost:3000/ & open http://localhost:3000/ & node ./webpack-server.js",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "horchynskyi",
