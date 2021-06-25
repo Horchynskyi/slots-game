@@ -60,7 +60,7 @@ export class ReelsZone extends PIXI.Container {
       return;
     }
 
-    this._reels.forEach((reel) => {
+    this._reels.forEach((reel, i) => {
       if ( !reel.isSpinning ) {
         return;
       }
